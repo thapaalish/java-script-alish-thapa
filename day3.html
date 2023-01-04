@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js objects</title>
+    <style>
+
+    </style>
+    <script>
+      
+     let x = {
+               //members
+               //1. property:value
+               //2. functions
+               name : "OKLABS",
+               surname : "DOLLAR",
+               myFuncA:function(){
+                console.log('My name is '+this.name);//this = self =current object
+                   // console.log(x.myFuncA());
+               },
+               myFuncB:()=>{
+
+               },
+               myFuncC:function(){
+
+               }
+
+
+
+
+
+     //xis an js object
+            };
+console.log(x.myFuncA());
+        
+
+let y = {
+    //1.property values;
+    name : "alish",
+    address : "thapa gau",
+    "friends" : ["a","f","x"]
+
+
+
+
+
+}
+let z = ["a","b","f"];
+
+
+
+    </script>
+</head>
+<body>
+    <script>
+           
+           console.log(y);
+           
+           for(var i=0;i<y.length;i++){
+
+
+
+           }
+
+           z.forEach(element => {
+            console.log(element);
+            
+           });
+   
+         let teachers = ['aa','bb','cc'];
+         for(teacher of teachers)
+         {
+            console.log(teacher);
+         }
+
+
+           
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
