@@ -20,7 +20,10 @@ myFunctionC("alish ");
 
 let a = ['anil','alish','allos'];
 console.log(a);
+console.log(a.length);
 
 let b = [...a,'anihhhhl','alggggish','alddddlos']
 
 console.log(b);
+console.log(b.length);
+

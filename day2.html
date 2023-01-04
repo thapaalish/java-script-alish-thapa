@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    </script>
+</head>
+<body>
+    <script>
+var students = { 
+     'name' : "alish",
+      "surname" : 'thapa',
+       address : 'nepal',
+       friends : ['ali',"sser","qlll"],//js object containing array
+	"teachers" : [{
+            name :"alish thapa",
+            contact : "984644677"
+       },
+    {
+        name : "thapa akk",
+        contact : "8767868"
+    }]
+     
+
+
+};//js object
+//alert(students.name);
+    console.log(students.name);//objects.member;
+    console.log(students.address);
+    console.log(students.friends); 
+    console.log(students.surname);
+    console.log(students.name+" Have "+students.friends.length+" Friends.");
+      
+    console.log(students.name +"Have "+students.teachers.length+" Teachers");
+    
+for(var i=0; i< students.teachers.length;i++){
+    console.log(students.teachers[i].name+' '+students.teachers[i].contact);
+}
+
+
+
+
+
+var x = ['auu',students ];//array contain js object
+   
+   
+   
+   </script>
+</body>
+</html>
