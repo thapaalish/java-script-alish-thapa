@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background-color:#000 ;
+         }
+         .a_box{
+            width: 200;
+            height: 400;
+            margin: auto;
+            text-align: center;
+
+         }
+
+         
+
+    </style>
+    
+    <script>
+       //1.function definition
+       function clickMe(state){//state is a formal arguments
+       // alert('ok');
+       //object.member.member.member
+       //alert(state);
+       if(state == 'on' ){//true
+        document.body.style.backgroundColor='yellow';
+//object.member
+//object.function();
+//object.method();
+
+        document.getElementById('myimg').setAttribute('src','pht 2.jpg')
+       }else{//false
+        document.body.style.backgroundColor='black';
+        document.getElementById('myimg').setAttribute('src','pht 1.jpg')
+       
+       }
+//document.body.style.backgroundColor='yellow';
+    //if condition
+
+
+       }
+    </script>
+
+</head>
+<body>
+    <div class="a_box">
+    <img id="myimg" width="200" src="pht 2.jpg">
+    <br>
+   <button onclick="clickMe('on')">ON</button>
+   <button onclick="clickMe('off')">OFF</button>
+   
+</div>
+
+   <script>
+    </script>
+</body>
+</html>
